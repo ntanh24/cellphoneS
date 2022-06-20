@@ -4,6 +4,12 @@
     border-radius: 10px;
 }
 
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 img {
     border-radius: 10px;
 }
@@ -151,4 +157,14 @@ img {
     border-radius: 0 100px 100px 0;
     margin-top: 20%;
     right: -15px;
+}
+
+/* footer 1 */
+.footer-1 a {
+    font-size: 13px;
+}
+
+/* footer 2 */
+.footer-2 a {
+    font-size: 12px;
 }
