@@ -1,0 +1,55 @@
+*,
+*::before{}
+*::after{
+    padding: 0;
+    margin: 0;
+}
+.main1{
+    display: flex;
+    text-align: left;
+    padding-left: 340px;
+    padding-right: 340px;
+    font-size: 12px;
+    width: 100%;
+}
+.main2{
+    display: flex;
+    text-align: left;
+    padding-left: 340px;
+    font-size: 11px;
+    background-color: #f8f8f8;
+    margin: 0px;
+    line-height: 18px;
+    
+
+}
+.main3{
+    background-color: #f8f8f8;
+    font-size: 12px;
+    padding-left: 352px;
+    line-height: 18px;
+}
+.content1 {
+    position: relative;
+    width: 300px;
+}
+.col2-row2 ol{
+    padding: 0;
+}
+.content4{
+    padding-right: 40px;
+}
+.content5{
+    padding-right: 40px;
+}
+.content7{
+    color: #000000;
+    opacity: 50%;
+}
+.content8{
+    text-align: center;
+    padding-right: 352px;
+}
+ol li{
+    list-style: none;
+}
