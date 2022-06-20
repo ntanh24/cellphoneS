@@ -1,0 +1,41 @@
+.fix{
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+}
+
+.picked{
+    border: 1px solid red !important;
+}
+
+.vid {
+    align-self: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.slider {
+    width: 400px;
+}
+.listtext {
+    font: 14px sans-serif;
+}
+
+.btnplay {
+    width: 68px; 
+    height: 48px
+}
+
+.img {
+    width: 360;
+    height: 375;
+}
+
+.m1 {
+    margin-bottom: 80px;
+}
