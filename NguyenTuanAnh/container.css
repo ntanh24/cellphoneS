@@ -1,5 +1,31 @@
 /* header */
-.menu>ul {
+.menu-container {
+    width: 205px;
+    display: block;
+    overflow: auto;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    overflow-y: hidden;
+}
+
+.mid-container {
+    width: calc(100% - 500px);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.right-container {
+    width: 365px;
+    /* box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%); */
+}
+
+.menu-tree {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* .menu>ul {
     border: 1px solid black;
     border-radius: 10px;
 }
@@ -9,14 +35,16 @@
     flex-direction: column;
     justify-content: space-around;
 }
+*/
 
 img {
     border-radius: 10px;
 }
 
 
+
 /* Hot sale */
-.hot-sale {
+/* .hot-sale {
     background: linear-gradient(rgb(241, 50, 55), rgb(248, 207, 214));
 }
 
@@ -26,7 +54,7 @@ img {
 
 .title-sale {
     color: yellow;
-}
+} */
 
 
 /* product */
@@ -57,6 +85,13 @@ img {
 }
 
 /* product-list */
+/* .product-list-container {
+    position: relative;
+    overflow: hidden;
+    list-style-type: none;
+} */
+
+
 .product-list {
     box-sizing: content-box;
     margin-left: auto;
@@ -67,9 +102,9 @@ img {
 
 .box {
     max-width: 20%;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     height: auto;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
 }
 
@@ -140,22 +175,24 @@ img {
 .button-prev {
     width: 30px;
     height: 60px;
+    top: 50%;
     background: #fff;
     box-shadow: 0 0 4px 0 rgb(0 0 0 / 20%);
     outline: none;
     border-radius: 100px 0 0 100px;
-    margin-top: 20%;
+    /* margin-top: 20%; */
     left: -15px;
 }
 
 .button-next {
     width: 30px;
     height: 60px;
+    top: 50%;
     background: #fff;
     box-shadow: 0 0 4px 0 rgb(0 0 0 / 20%);
     outline: none;
     border-radius: 0 100px 100px 0;
-    margin-top: 20%;
+    /* margin-top: 20%; */
     right: -15px;
 }
 
