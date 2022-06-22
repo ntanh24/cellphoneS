@@ -163,6 +163,15 @@ img {
     right: -15px;
 }
 
+footer
+.footer {
+    margin-top: 40px;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    position: relative;
+    overflow-x: hidden;
+}
+
 /* footer 1 */
 .footer-1 a {
     font-size: 13px;
@@ -174,6 +183,10 @@ img {
 }
 
 /* footer 2 */
+.footer-2 {
+    background: #f8f8f8;
+}
+
 .footer-2 a {
     font-size: 12px;
 }
