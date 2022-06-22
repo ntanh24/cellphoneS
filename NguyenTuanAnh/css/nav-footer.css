@@ -1,0 +1,159 @@
+
+/* nav */
+input{border: 0;outline: 0;}
+p{
+    margin: 0;
+}
+.navBar{
+    display: block;
+    width: 100%;
+    background-color: #d70018;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.boxZone{
+    border-radius: 15px;  
+    background-color: #df3346;
+}
+
+.boxZone section{
+    background-color: #df3346;
+    border: 0;
+    outline: 0;
+}
+
+.boxZone a{
+    display: flex;
+}
+
+.search-box{
+    background-color:#ffffff;
+    height: 30px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding: 3px 5px 3px 5px;
+    border-radius: 15px; 
+}
+
+.box-about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-about a{
+    align-items: center;
+    display: flex;
+}
+
+.auto-box1 {
+    border-radius: 15px;
+    padding: 10px;
+    list-style: none;
+    background-color: #df3346;
+}
+
+.auto-box1 li a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.submenu li {
+    background: #fffff3;
+}
+
+.submenu ul{
+    padding: 0;
+
+}
+
+.auto-box1 ul{
+    padding: 0;
+
+}
+
+.submenu1 li a{
+    background: #fffff3;
+}
+
+.auto-box1 li ul {
+
+    z-index: 10;
+    position: absolute;
+    width: 220px;
+    list-style: none;
+    display: none;
+    line-height: normal;
+}
+
+.auto-box1 li ul li a {
+    padding: 16px;
+    text-align: left;
+    color: #2b2424;
+    font-size: 14px;
+    display: block;
+
+}
+
+.auto-box1 li ul li ul {
+    left: 100%;
+    top: 0%;
+}
+
+ul li:hover>ul {
+    display: block;
+}
+
+.img-ads{
+    margin-bottom: 10px;
+    text-align: center ;
+    border-radius: 10px;
+}
+.img-ads img{
+    width: 1200px;
+    height: 100px;
+}
+
+.title{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.title-item ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+
+/* footer */
+.footer {
+    margin-top: 40px;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* footer 1 */
+.footer-1 a {
+    font-size: 13px;
+}
+
+.pay {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* footer 2 */
+.footer-2 {
+    background: #f8f8f8;
+}
+
+.footer-2 a {
+    font-size: 12px;
+}

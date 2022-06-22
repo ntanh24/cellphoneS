@@ -1,0 +1,78 @@
+.caigiday-box{
+    display: block;
+    width: 100px;
+    height: 125px;
+    border-radius: 10px;  
+    background-position: 100% 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  }
+
+.caigiday-box a{
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    max-width: 114px;
+    display: block;
+    
+}
+
+.caigiday-box a:hover{
+    color: white;
+}
+
+.pk {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.pk div {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.why {
+    font-family: sans-serif;
+    font-size: 13px;
+    text-transform: none;
+    right: 15px;
+    bottom: 5px;
+    color: #111;
+    text-decoration: none;
+}
+
+.why:hover {
+    text-decoration: none;
+    font-size: 16px;
+    color: #111;
+}
+
+.-_- {
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #444;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.-_-:hover {
+    color: #444;
+}
+
+.cpn {
+    margin-bottom: 30px;
+}

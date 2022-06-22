@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+a{text-decoration: none;}
+.main-body{
+    text-align: center;
+}
+a{text-decoration: none; color: white;}
+input{border: 0;outline: 0;}
+.navBar{
+    background-color: #d70018;
+    width: auto;
+    height: 64px;
+    box-shadow:0 4px 6px -1px rgb(0 0 0 / 10%), 
+                0 2px 4px -1px rgb(0 0 0 / 6%);;
+}
+.nav-container{
+    height: 100%;
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+.search-box{
+    background-color:#ffffff;
+    height: 30px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding: 3px 5px 3px 5px;
+    border-radius: 15px; 
+    margin-left: 20px;
+}
+.hotline{
+
+    padding: 0px 7px;
+    display: flex;
+}
+.location{
+    text-align: center;
+    padding: 0px 7px;
+}
+.order{
+    padding: 0px 7px;
+    display: flex;
+}
+.Shopping-cart{
+    margin-top: -7px;
+    padding: 0px 10px;
+    text-align: center;
+}
+.Smember{
+    margin-top: -7px;
+    padding: 3px 5px 3px 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.Anh1{
+    width: 840px;
+    height: 385px;   
+    border-radius: 25px;
+    margin-top: 15px;
+}
+.Text1{
+ font-size: 18px;
+ font-weight: 700;
+ margin: 15px;
+ color: #e11b1e;
+}
+.ggicon{
+    width: 20%;
+    /* width: 40px;
+    height: 40px; */
+    padding-right: 35px;
+}
+.Button1{
+    display: flex;
+    width: 100%;
+    border-radius: 0.4rem;
+    border: 1px solid #212529;
+    padding: 1rem;
+    background-color: white;
+    font-size: 16px;
+}
+.google-signin{
+    justify-content: center;
+    display: flex;
+    width: 370px;
+    /* height: 75px; */
+    border-radius: 1.5rem;
+    border: 1px solid #e7e7e7;
+    padding: 0.9rem;
+    margin: auto;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+.table, td{
+    border: 1px solid #333;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    line-height: 2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.Text2{
+  padding: auto;
+  text-align: left;
+  /* margin-left: 540px; */
+}
+
+/* footer */
+footer a{
+    color: #000000;
+}
+
+
+
