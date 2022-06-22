@@ -1,0 +1,380 @@
+.sb-icon-search,
+.sb-search-submit {
+    padding: 12px;
+}
+
+.embed-image {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    /*background-color:black;*/
+}
+
+.ratio-16-9 {
+    padding-bottom: 56.25%; /* 9/16*100 */
+}
+
+.ratio-16-9 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%;*/
+}
+
+.ratio-16-9 img:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+}
+
+.ratio-4-3 {
+    padding-bottom: 75%; /* 3/4*100 */
+}
+
+.ratio-3-4 {
+    padding-bottom: 133%; /* 3/4*100 */
+}
+
+.ratio-3-4 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    /* height: 100%;*/
+}
+
+.ratio-1-1 {
+    padding-bottom: 100%; /* ... */
+}
+
+.npt-list-new li {
+    margin-bottom: 10px;
+}
+.breadcrumb ul li {
+    margin-right: 12px;
+}
+.boxNewsList.list-news-dm li span {
+    padding-right: 10px;
+    width: auto;
+}
+/*.boxNewsList.list-news-dm li a {
+    float: none;
+    width: auto;
+}*/
+.news-other .list-news .item-news .thumbnail {
+    height: auto;
+}
+.block-comment .form-comment textarea {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.block-comment .form-comment button, .block-comment .form-comment .button {
+    margin-top: 0px;
+}
+
+.npt-new-read .npt-lable h2 span {
+    width: auto;
+    margin-right: initial;
+}
+.lst-comment ul {
+    float: none;
+}
+.BL-content {
+    width: 100%;
+    float: none;
+}
+.npt-new-news3 .list-next-new li .thumbs {
+    height: auto;
+}
+
+/*PAGGING*/
+.paging-div {
+    font-size: 13px;
+    position: relative;
+    text-align: left;
+    color: rgb(128, 128, 128);
+    padding-bottom: 5px;
+    padding-top: 10px;
+    line-height: inherit;
+    float: right;
+}
+
+.paging-div div {
+    font-size: 13px;
+    font-weight: normal;
+    display: inline;
+    list-style: none;
+    text-align: center;
+    margin: 2px;
+}
+
+.paging-div div span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #CC0000;
+    border: 1px #CC0000 solid;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding: 5px 10px;
+}
+
+.paging-div div a {
+    font-size: 13px;
+    font-weight: normal;
+    color: #fff;
+    border: 0px #01A050 solid;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #01A050;
+}
+
+.paging-div div a:hover {
+    background: #ed1c24; /* for non-css3 browsers */
+    color: #fff !important;
+}
+
+.paging-div .nav {
+    font-size: 13px;
+    font-weight: normal;
+    color: #ed1c24;
+    border: 1px #ed1c24 solid;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding: 5px 10px;
+}
+
+.list-special-announcement .li-item .thumb {
+    height: auto;
+}
+.npt-online-exhibitions .npt-news .videoNew .thumbs {
+    height: auto;
+}
+.npt-online-exhibitions .npt-news .list-video-right .thumbs {
+    height: auto;
+}
+
+.npt-new-TBdb .npt-lable2 {
+    color: #fff;
+    background: #ed1c24;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 100% ;
+    flex: 0 0 100% ;
+    max-width: 100% ;
+}
+
+.npt-new-TBdb .npt-lable2 h2, .npt-new-TBdb .npt-lable2 a {
+    color: #fff !important;
+    line-height: 40px;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-weight: 500 !important;
+}
+
+.npt-new-TBdb .npt-lable2 h2 .icon {
+    background: #c50d14;
+    width: 45px;
+    text-align: right;
+    line-height: 37px;
+    padding-right: 5px;
+    float: left;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    display: list-item;
+}
+
+.npt-new-TBdb .npt-lable2 h2 .icon:before {
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-left: 15px solid #c50d14;
+    position: absolute;
+    content: "";
+    top: 0px;
+    right: -15px;
+}
+
+.npt-new-TBdb .npt-lable2 h2 {
+    color: #164397;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-weight: 500;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.npt-onNews-in {
+    width: 100%;
+}
+.npt-news {
+    width: 100%;
+}
+
+.grid-cover{
+    position:absolute;
+    z-index:20;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    overflow:hidden;
+}
+
+.grid-content{
+    position:relative;
+    z-index:10;
+    padding: 0;
+
+}
+
+.grid-image-wrapper{
+    position:relative;}
+
+.grid-bg{
+    z-index:15;
+}
+
+.npt-newNews-list .imgNew h2 {
+    z-index: 99;
+}
+
+
+/*.npt-list-catalog .hi-icon-wrap {
+   text-align: left;
+   margin: 0 auto;
+   padding: 0em !important;
+   float: left;
+   width: 100%;
+   margin-bottom: 15px; }
+
+.npt-list-catalog .u-block-hover {
+   float: left;
+   line-height: 80px;
+   height: 80px !important;
+   width: 100%;
+   border-radius: 50px;
+   border: 1px solid #e1e1e1; }
+
+.npt-list-catalog .item-list h3 {
+   line-height: 80px;
+   padding-left: 95px; }
+
+.npt-list-catalog .item-list .hi-icon {
+   float: left;
+   position: absolute; }
+
+.hi-icon-effect-5 .hi-icon {
+   box-shadow: 0 0 0 0px rgba(255, 255, 255, 0);
+   overflow: hidden;
+   -webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+   -moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+   transition: background 0.3s, color 0.3s, box-shadow 0.3s; }*/
+
+.npt-public-announcement .container .npt-grids-safety-in .tab-content .tab-pane .npt-investment-projects-page .container .card .u-accordion .card .card .d-md-table .d-md-table-cell .d-inline-day {
+    width: auto;
+}
+
+.npt-list-catalog .item-list .hi-icon .imgIcon {
+    padding-top: 15px;
+}
+.npt-lable-12 h2 span, .npt-onNews .container .row .npt-onNews-in .npt-lable h2 span, .npt-development-strategy .container .row .npt-development-strategy-in .npt-lable h2 span, .npt-solution .container .npt-strategic-objectives-lable .npt-lable h2 span, .npt-khoi-ban .container .npt-strategic-objectives-lable .npt-lable h2 span{
+    font-family: 'Oswald';
+}
+
+.display2line {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.display3line {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.display1line {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wp100 {
+    width: 100% !important;
+}
+div.p_table_1 div.caption_column li.header_row_2, div.p_table_1 div.column_1 li.header_row_2, div.p_table_1 div.column_2 li.header_row_2, div.p_table_1 div.column_3 li.header_row_2, div.p_table_1 div.column_4 li.header_row_2 {
+    height: 163px;
+    width: 100%;
+    padding: 0 0 0px !important;
+}
+
+.header_menu .navbar-nav {
+     display: -webkit-inline-box;
+}
+
+.hs-has-sub-menu > a::after {
+    display: none;
+}
+
+.hs-sub-menu, .hs-mega-menu {
+    margin-top: 0px;
+}
+/*.header_menu .navbar-expand-lg ul.navbar-nav .nav-item:hover .nav-link {
+   color:#fff;
+}*/
+
+.header_menu .navbar-expand-lg ul.navbar-nav li ul li a.nav-link {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.3;
+}
+
+@media (max-width: 1024px) {
+    .menuTop-Right {
+        top: 65px;
+    }
+}
+@media (max-width: 780px) {
+    .menuTop-Right {
+        top: 75px;
+    }
+}
+@media (max-width: 480px) {
+    .menuTop-Right {
+        top: 60px;
+    }
+}
+
+.header_menu .navbar-expand-lg ul.navbar-nav li .customActiveJs {
+    background-color: inherit !important;
+    color: #01A050;
+    font-weight: bold !important;
+    /*height: 45px;*/
+    line-height: 25px;
+}
+
+
+#navBar .hs-sub-menu .dropdown-item .nav-link {
+    color: #333 !important;
+}
+.header_menu .navbar-expand-lg ul.navbar-nav li ul li .nav-link.customActiveJs {
+    background-color: inherit !important;
+    color: #3398dc !important;
+    font-weight: bold !important;
+}
