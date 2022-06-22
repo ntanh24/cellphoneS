@@ -1,2 +1,2 @@
 - Thư mục project và admin là sản phẩm cuối cùng
-- Các thư mục ứng với tên thành viên là nơi commit code ứng với phần việc của từng người
+- Các thư mục với tên thành viên là nơi commit code ứng với phần việc của từng người
