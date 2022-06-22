@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <!-- icon -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- css -->
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="./css/bootstrap.css">
 
     <link rel="stylesheet" href="./css/customNLS.css">
@@ -15,7 +18,7 @@
 
     <link rel="stylesheet" href="./css/styles.multipage-npt.css">
 
-    <!-- custom css -->
+    <!-- css custom -->
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="container.css">
     <link rel="stylesheet" href="caigiday.css">
@@ -23,6 +26,7 @@
     <!-- js -->
     <!-- <script src="js/button.js"></script> -->
     <!-- <script src="js/carousel.js"></script> -->
+    <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 
 </head>
@@ -35,9 +39,9 @@
         <section>
             <!-- header -->
             <div class="container">
-                <div class="w-100 d-flex g-my-15 ">
-                    <div class="menu-container">
-                        <ul class="menu-tree">
+                <div class="g-my-15 row">
+                    <div class="col-md-3 menu-container">
+                        <ul>
                             <li >
                                 <a class="d-flex justify-content-between g-px-15 g-pt-10 g-pb-5 g-font-size-17" href="">
                                     <i class="fal fa-mobile-android">Điện thoại</i>
@@ -113,123 +117,33 @@
                         </ul>
                     </div>
 
-                    <div class="mid-container g-mx-15 g-px-0">
-                        <article>
-                            <figure>
-                                <a href="">
-                                    <div>
-                                        <img class="img-fluid w-100" src="./img/header/1.png" alt="">
-                                    </div>
-                                </a>
-                            </figure>
-                        </article>
+                    <div class="col-md-6 mid-container">
+                        <a href="">
+                            <img class="w-100" src="img/header/1.png" alt="">
+                        </a>
+                        <div>
+                            <h2 class="h3 g-font-size-20 g-font-weight-700">QUẢNG <br> CÁO</h2>
+                        </div>
                     </div>
             
-                    <div class="right-container">
-                        <article>
-                            <figure>
-                                <a href="">
-                                    <div class="g-mb-20 g-px-0">
-                                        <img class="w-100" src="./img/header/2.png" alt="">
-                                    </div>
-                                </a>
-                            </figure>
-                        </article>
-                        <article>
-                            <figure>
-                                <a href="">
-                                    <div class="g-mb-20">
-                                        <img class="img-fluid w-100" src="./img/header/3.png" alt="">
-                                    </div>
-                                </a>
-                            </figure>
-                        </article>
-                        <article>
-                            <figure>
-                                <a href="">
-                                    <div>
-                                        <img class="img-fluid w-100" src="./img/header/4.png" alt="">
-                                    </div>
-                                </a>
-                            </figure>
-                        </article>
+                    <div class="col-md-3 right-container">
+                        <a href="">
+                            <div class="g-mb-10 g-px-0">
+                                <img class="w-100" src="./img/header/5.png" alt="">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="g-mb-10">
+                                <img class="w-100" src="./img/header/6.png" alt="">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div>
+                                <img class="w-100" src="./img/header/7.png" alt="">
+                            </div>
+                        </a>
                     </div>
                 </div>
-
-                <!-- hot sale -->
-                <!-- <div>
-                    <article>
-                        <figure>
-                            <a href="">
-                                <div>
-                                    <img class="img-fluid w-100" src="./img/header/5.png" alt="">
-                                </div>
-                            </a>
-                        </figure>
-                    </article>
-                </div>
-
-                <div class="hot-sale g-mt-15">
-                    <div class="box-title d-flex justify-content-between">
-                        <div class="hot-sale-button g-pt-20 g-pl-15">
-                            <button type="button" class="btn btn-dark">18/06</button>
-                            <button type="button" class="btn btn-light">19/06</button>
-                        </div>
-                        <div class="title-sale g-font-size-25">
-                            SALE CHỚP NHOÁNG
-                            <i class="fas fa-bolt"></i>
-                        </div>
-                        <div></div>
-                        
-                    </div>
-                    <div class="row g-mt-15 d-flex justify-content-sm-around">
-                        <article class="col-md-2">
-                            <figure>
-                                <a href="">
-                                    <div>
-                                        <img class="img-fluid w-100" src="./img/hot-sale/1.png" alt="">
-                                    </div>
-                                </a>
-                            </figure>
-                        </article>
-                        <article class="col-md-2">
-                            <figure>
-                                <a href="">
-                                    <div>
-                                        <img class="img-fluid w-100" src="./img/hot-sale/1.png" alt="">
-                                    </div>
-                                </a>
-                            </figure>
-                        </article>
-                        <article class="col-md-2">
-                            <figure>
-                                <a href="">
-                                    <div>
-                                        <img class="img-fluid w-100" src="./img/hot-sale/1.png" alt="">
-                                    </div>
-                                </a>
-                            </figure>
-                        </article>
-                        <article class="col-md-2">
-                            <figure>
-                                <a href="">
-                                    <div>
-                                        <img class="img-fluid w-100" src="./img/hot-sale/1.png" alt="">
-                                    </div>
-                                </a>
-                            </figure>
-                        </article>
-                        <article class="col-md-2">
-                            <figure>
-                                <a href="">
-                                    <div>
-                                        <img class="img-fluid w-100" src="./img/hot-sale/1.png" alt="">
-                                    </div>
-                                </a>
-                            </figure>
-                        </article>
-                    </div>
-                </div> -->
 
                 <!-- Product -->
                 <!-- mb -->

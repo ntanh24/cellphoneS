@@ -1,61 +1,24 @@
 /* header */
 .menu-container {
-    width: 205px;
-    display: block;
-    overflow: auto;
+    /* width: 250px;
+    display: block; */
+    /* overflow: auto; */
     border-radius: 15px;
     box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
-.mid-container {
-    width: calc(100% - 500px);
-    overflow: hidden;
-    border-radius: 10px;
+.mid-container>div {
+    border-radius: 15px;
     box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
-}
-
-.right-container {
-    width: 365px;
-    /* box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%); */
-}
-
-.menu-tree {
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
-/* .menu>ul {
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
-.right {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 7%;
 }
-*/
 
 img {
     border-radius: 10px;
 }
-
-
-
-/* Hot sale */
-/* .hot-sale {
-    background: linear-gradient(rgb(241, 50, 55), rgb(248, 207, 214));
-}
-
-.hot-sale-button>button {
-    border-radius: 10px;
-}
-
-.title-sale {
-    color: yellow;
-} */
-
 
 /* product */
 /* product-list-title */
@@ -97,6 +60,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     overflow: none;
+    position: relative;
     z-index: 1;
 }
 
